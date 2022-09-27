@@ -7,7 +7,7 @@ int main()
 	Auto car{ "VW", ps, Tankfuellung{30}, Tankgroesse{60} };
 	car.drucke(cout);
 	try {
-		car.tanken(30.0).fahre(20).tanken(10.);
+		car.tanken(30.0).fahren(20).tanken(10.);
 		car.fahren(50);
 		car.drucke(cout);
 		car.fahren(20);
